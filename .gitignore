@@ -1,0 +1,20 @@
+#Ignore file for IceSliderGame
+
+#Os junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Directories
+[lL]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]in/
+
+#Subdirectories
+Assets/Assemblies/*
+
+#File extensions
+*.userprefs
+*.suo
+
+#Files
