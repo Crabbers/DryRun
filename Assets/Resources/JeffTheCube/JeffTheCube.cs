@@ -1,12 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
-using SomeLibrary;
 
 public class JeffTheCube : MonoBehaviour
 {
     public float _moveSpeed = 5f;
-
-    private SomeClass _someClass = new SomeClass();
 
     // Use this for initialization
     void Start()
@@ -38,8 +35,5 @@ public class JeffTheCube : MonoBehaviour
         {
             movement += Vector3.right;
         }
-
-        transform.position += movement.normalized * _moveSpeed * Time.deltaTime * _someClass.Random();
-
     }
 }
